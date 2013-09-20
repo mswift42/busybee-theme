@@ -19,8 +19,8 @@
 	'(cursor ((t (:background "#626262"))))
         '(show-paren-match-face ((t (:background "#ff9800"))))
         '(isearch ((t (:bold t :foreground "#202020" :background "#e2e2e5"))))
-        '(mode-line ((t (:bold t :foreground "#808080" :background "#393939"))))
-        '(mode-line-inactive ((t (:foreground "#808080" :background "#202020"))))
+        '(mode-line ((t (:bold t :foreground "#898989" :background "#202020"))))
+        '(mode-line-inactive ((t (:foreground "#898989" :background "#202020"))))
         '(mode-line-buffer-id ((t (:bold t :foreground "#ff9800" :background "#202020"))))
         '(minibuffer-prompt ((t (:bold t :foreground "#708090"))))
         '(default-italic ((t (:italic t))))
@@ -70,6 +70,10 @@
 	'(gnus-header-from ((t (:foreground "#f0e16a"))))
 	'(gnus-header-name ((t (:foreground "#ff9800"))))
 	'(gnus-header-subject ((t (:foreground "#ff8800"))))
+	'(mu4e-view-url-number-face ((t :foreground "#7e8aa2")))
+	'(mu4e-cited-1-face ((t :foreground "#708090")))
+	'(mu4e-cited-7-face ((t :foreground "#929190")))
+	'(mu4e-header-marks-face ((t :foreground "#cd8b00")))
 	'(slime-repl-inputed-output-face ((t (:foreground "#ff9800")))))
 
 ;;;###autoload
