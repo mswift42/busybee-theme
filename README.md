@@ -27,7 +27,7 @@ To install the theme
 **M-x package-install** busybee-theme
 
 
-To use the busybee theme when starting emacs:
+To use the busybee theme when starting emacs, add this to your init.el:
 
     (load-theme 'busybee)
 
